@@ -1,0 +1,5 @@
+BROKER_URL="localhost:9092"
+TOPIC_NAME="project2.calls.for.service"
+INPUT_FILE="/home/workspace/data/police-department-calls-for-service.json"
+RADIO_CODE_FILE="/home/workspace/data/radio_code.json"
+CLIENT_ID="1"
