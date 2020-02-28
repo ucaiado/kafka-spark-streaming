@@ -50,7 +50,7 @@ All screenshots are available in the [screenshots/](screenshots/) folder.
 #### Questions
 
 ##### 1. How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
-Depending on the startup parameters use, we can fine-tune both latency and throughput to our requirements. For example, `processedRowsPerSecond` makes the application ingest more data per second, leading to higher throughput.
+Depending on the startup parameters used, we can fine-tune both latency and throughput to our requirements. For example, `processedRowsPerSecond` makes the application ingest more data per second, leading to higher throughput.
 
 ##### 2. What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?
 I tested different values to the parameters bellow, and 200 to the first two presented the best performance:
